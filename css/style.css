@@ -232,8 +232,8 @@ img {
 
 .home__img {
     position: absolute;
-    right: 0;
-    bottom: 160px;
+    right: 10px;
+    bottom: 0;
     width: 295px;
 }
 
@@ -245,6 +245,7 @@ img {
     padding: 12px 40px;
     font-weight: var(--font-semi);
     border-radius: 8px;
+    margin-bottom: var(--mb-4);
 }
 .button:hover {
     box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
@@ -318,11 +319,11 @@ img {
 }
 
 .skills__html {
-    width: 81%;
+    width: 87%;
 }
 
 .skills__css {
-    width: 75%;
+    width: 85%;
 }
 
 .skills__js {
@@ -333,9 +334,16 @@ img {
     width: 95%;
 }
 
+.skills__jq {
+    width: 72%;
+}
+
+.skills__re {
+    width: 42%;
+}
+
 .skills__img {
     border-radius: 8px;
-    height: 650px;
 }
 
 
